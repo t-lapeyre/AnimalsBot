@@ -1,1 +1,5 @@
-#Ignoring node_modules\nmode_modules/
+#Ignoring node_modules
+node_modules/
+
+#Ignoring .env
+.env
