@@ -39,7 +39,6 @@ function requestApi(url, fct) {
             const jsonData = JSON.parse(data);
             fct(jsonData);
         });
-
     }).on("error", (err) => {
         console.log("Error: " + err.message);
     });
