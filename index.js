@@ -1,8 +1,8 @@
-require('dotenv').config();
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const https = require('https');
+
+const token = 'Nzg4MzYxMjgyNzg4Nzg2MTc3.X9iYqA.tli19Bkp8nJqsYpugukfKwEePS4';
 
 const prefix = '!';
 
@@ -10,7 +10,7 @@ client.once('ready', () => {
     console.log('Je suis connecté');
 });
 
-client.login(process.env.TOKEN);
+client.login(token);
 
 const animals = [
     'dog',
